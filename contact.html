@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Franco Buscaglia</title>
+    <script
+      src="https://kit.fontawesome.com/d0d6ae25b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="wrapper-no-index">
+      <section id="burger">
+        <nav>
+          <div class="loguito">Logo</div>
+          <input type="checkbox" id="check" />
+          <label for="check" class="bar-btn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <div class="nav-menu">
+            <ul class="nav-menu">
+              <li class="li-burger">
+                <a class="a-burger" href="./index.html">Inicio</a>
+              </li>
+              <li class="li-burger">
+                <a class="a-burger" href="./sobreMi.html">Sobre mi</a>
+              </li>
+              <li class="li-burger">
+                <a class="a-burger" href="./proyectos.html">Mis proyectos</a>
+              </li>
+              <li class="li-burger">
+                <a class="a-burger" href="./tecnologias.html">Tecnologias</a>
+              </li>
+              <li class="li-burger">
+                <a class="a-burger" href="./contact.html">Contacto</a>
+              </li>
+            </ul>
+            <div class="iconos">
+              <ul class="ul-icon">
+                <li class="li-icon">
+                  <a
+                    class="a-icon"
+                    href="https://www.linkedin.com/in/francobuscaglia/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li class="li-icon">
+                  <a
+                    class="a-icon"
+                    href="https://www.facebook.com/fran.buscaglia/"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="li-icon">
+                  <a
+                    class="a-icon"
+                    href="https://www.instagram.com/fran_buscaglia/"
+                    target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <aside id="nav">
+        <div class="divLogo"><a href="./index.html" class="logo">Logo</a></div>
+        <nav class="main-menu_nav">
+          <a class="a-nav" href="./index.html">Inicio</a>
+          <a class="a-nav" href="./sobreMi.html">Sobre mi</a>
+          <a class="a-nav" href="./proyectos.html">Mis proyectos</a>
+          <a class="a-nav" href="./tecnologias.html">Tecnologias</a>
+          <a class="a-nav" href="./contact.html">Contacto</a>
+        </nav>
+        <ul class="ul-icon">
+          <li class="li-icon">
+            <a
+              class="a-icon"
+              href="https://www.linkedin.com/in/francobuscaglia/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li class="li-icon">
+            <a
+              class="a-icon"
+              href="https://www.facebook.com/fran.buscaglia/"
+              target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li class="li-icon">
+            <a
+              class="a-icon"
+              href="https://www.instagram.com/fran_buscaglia/"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </aside>
+      <section id="tecnologias">
+        <div class="contact">
+          <h1 class="titulo">Hagamos algo grandioso juntos!</h1>
+          <form
+            action="forms.html"
+            method="GET"
+            enctype="application/x-www-form-urlencoded"
+          >
+            <label for="nombre">Nombre: </label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Ingresa tu Nombre"
+            />
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <br />
+
+            <label for="motivo">Motivo: </label>
+            <input type="text" name="motivo" id="motivo" placeholder="Motivo" />
+
+            <div>
+              <label for="Mensaje">Mensaje</label><br />
+              <textarea
+                name="Mensaje"
+                id="Mensaje"
+                placeholder="Mensaje"
+                rows="5"
+                cols="40"
+              ></textarea>
+            </div>
+            <input type="submit" value="Enviar mensaje" />
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
